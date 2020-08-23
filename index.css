@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #05490e;
+}
+
+h1, main {
+  flex: 0 100%;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form label {
+  flex: 0 40%;
+}
+
+form ::placeholder {
+  color: #05490e;
+  font-family: 'Inconsolata', monospace;
+  font-size: .6em;
+}
+
+form input { 
+  color: #05490e;
+  flex: 0 60%;
+}
+
+form button {
+  color: #05490e;
+  border: 1px solid #05490e;
+  margin-top: 2vh;
+  flex: 0 80%;
+}
+
+ul {
+  list-style-type: upper-roman;
+  text-align: left;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+li {
+  /* border: 1.5px dashed #000000; */
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  flex: 0 80%;
+  font-size: .9em;
+  margin-top: 1vh;
+  padding-top: .3vh;
+}
